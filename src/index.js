@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     )
     const likeBtns = document.querySelectorAll('.like-btn')
     likeBtns.forEach(btn => btn.addEventListener('click', increaseLikes))
-    
+
     function increaseLikes() {
       let configObj = {
         method: 'PATCH',
